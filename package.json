@@ -1,0 +1,10 @@
+{
+  "name": "state-emitter",
+  "version": "0.0.1",
+  "description": "A wrapper library to get the last state on listening",
+  "main": "index.js",
+  "repository": "git@github.com:QuadroKnoX/state-emitter.git",
+  "author": "Oliver Freudrich <info@oliverfreudrich.com>",
+  "license": "MIT",
+  "private": true
+}
