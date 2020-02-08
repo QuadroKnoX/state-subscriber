@@ -6,5 +6,8 @@
   "repository": "git@github.com:QuadroKnoX/state-emitter.git",
   "author": "Oliver Freudrich <info@oliverfreudrich.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "eventemitter2": "^6.0.0"
+  }
 }

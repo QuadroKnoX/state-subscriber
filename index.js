@@ -1,11 +1,11 @@
-const EventEmitter = require('eventemitter');
+import EventEmitter2 from 'eventemitter2';
 
 /**
  * This class describes a state emitter.
  *
  * @class      StateEmitter (name)
  */
-class StateEmitter extends EventEmitter {
+class StateEmitter extends EventEmitter2 {
   constructor(props) {
     super(props);
     this._recentValues = {};
