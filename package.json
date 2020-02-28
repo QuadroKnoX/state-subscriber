@@ -9,5 +9,9 @@
   "private": false,
   "dependencies": {
     "eventemitter2": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/eventemitter2": "^4.1.0",
+    "typescript": "^3.8.2"
   }
 }
