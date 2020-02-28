@@ -14,21 +14,21 @@ export default class StateSubscriber extends EventEmitter2 {
     return this.emit(event, data);
   }
 
-  subscribe(event: string, cb: (data: any) => {}) {
+  subscribe(event: string, cb: (data: any) => void) {
     this.addListener(event, cb);
     cb(this._recentValues[event]);
 
     return this;
   }
 
-  subscribeOnce(event, cb: (data: any) => {}) {
+  subscribeOnce(event, cb: (data: any) => void) {
     this.once(event, cb);
     cb(this._recentValues[event]);
 
     return this;
   }
 
-  unsubscribe(event, cb: (data: any) => {}) {
+  unsubscribe(event, cb: (data: any) => void) {
     this.removeListener(event, cb);
     return this;
   }
