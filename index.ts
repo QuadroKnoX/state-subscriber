@@ -5,8 +5,8 @@ export default class StateSubscriber extends EventEmitter2 {
     [event: string]: any;
   } = {};
 
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
   }
 
   next(event: string, data: any) {
