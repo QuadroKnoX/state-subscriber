@@ -3,9 +3,9 @@ import EventEmitter2 from 'eventemitter2';
 /**
  * This class describes a state emitter.
  *
- * @class      StateEmitter (name)
+ * @class      StateSubscriber (name)
  */
-class StateEmitter extends EventEmitter2 {
+class StateSubscriber extends EventEmitter2 {
   constructor(props) {
     super(props);
     this._recentValues = {};
@@ -64,4 +64,4 @@ class StateEmitter extends EventEmitter2 {
   }
 }
 
-module.exports = StateEmitter;
+module.exports = StateSubscriber;
