@@ -6,7 +6,7 @@
   "repository": "git@github.com:QuadroKnoX/state-subscriber.git",
   "author": "Oliver Freudrich <info@oliverfreudrich.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "eventemitter2": "^6.0.0"
   }
