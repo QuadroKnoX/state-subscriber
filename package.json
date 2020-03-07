@@ -7,7 +7,11 @@
   "author": "Oliver Freudrich <info@oliverfreudrich.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "npx tsc"
+  },
   "dependencies": {
+    "@types/node": "^13.9.0",
     "eventemitter2": "^6.0.0"
   },
   "devDependencies": {

@@ -32,4 +32,9 @@ export default class StateSubscriber extends EventEmitter2 {
     this.removeListener(event, cb);
     return this;
   }
+
+  unsubscribeAll(event: string): EventEmitter2 {
+    this.removeAllListeners(event);
+    return this;
+  }
 }

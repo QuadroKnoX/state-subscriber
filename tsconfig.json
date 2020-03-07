@@ -14,13 +14,5 @@
   ],
   "exclude": [
     "./node_modules"
-  ],
-  "include": [
-    "./actions",
-    "./initializers",
-    "./config",
-    "./middlewares",
-    "./servers",
-    "./tasks"
   ]
 }
