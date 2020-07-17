@@ -20,7 +20,7 @@ class StateSubscriber extends eventemitter2_1.EventEmitter2 {
     next(event, data) {
         if (
             this.updatesOnly &&
-            this._recentValues[event] &&
+            this._recentValues.hasOwnProperty(event) &&
             this._recentValues[event] === data
         ) {
             return false;

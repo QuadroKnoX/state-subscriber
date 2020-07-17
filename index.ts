@@ -23,7 +23,7 @@ export default class StateSubscriber extends EventEmitter2 {
     next(event: string, data: any): boolean {
         if (
             this.updatesOnly &&
-            this._recentValues[event] &&
+            this._recentValues.hasOwnProperty(event) &&
             this._recentValues[event] === data
         ) {
             return false;
