@@ -62,5 +62,15 @@ class StateSubscriber extends eventemitter2_1.EventEmitter2 {
         this.removeAllListeners(event);
         return this;
     }
+    /*
+     * This will clear all values cache for an event or for all events.
+     */
+    clearEvent(event) {
+        if (!event) {
+            this._recentValues = {};
+            return;
+        }
+        delete this._recentValues[event];
+    }
 }
 exports.default = StateSubscriber;
