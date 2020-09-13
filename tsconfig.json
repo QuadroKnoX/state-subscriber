@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": ".",
+    "declaration": true,
     "allowJs": true,
     "module": "commonjs",
-    "target": "es6",
+    "target": "es5",
     "lib": ["es2015"],
-    "moduleResolution": "node",
-    "experimentalDecorators": true,
-    "strict": true,
-    "types": ["node"]
+    "types": ["node"],
+    "moduleResolution": "node"
   },
   "files": [
-    "index.ts"
+    "./index.ts"
   ],
   "exclude": [
     "./node_modules"

@@ -2,7 +2,8 @@
   "name": "state-subscriber",
   "version": "0.1.2",
   "description": "A wrapper library to get the last state on listening.",
-  "main": "index.js",
+  "main": "./index.js",
+  "typings": "./index.d.ts",
   "repository": "git@github.com:QuadroKnoX/state-subscriber.git",
   "author": "Oliver Freudrich <info@oliverfreudrich.com>",
   "license": "MIT",
@@ -15,13 +16,12 @@
     "eventemitter2": "^6.4.3"
   },
   "devDependencies": {
-    "@types/eventemitter2": "^4.1.0",
-    "@types/node": "^14.0.23",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5",
-    "tslint": "^6.1.2",
-    "typescript": "^3.9.7"
+    "@types/node": "^14.10.1",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.3.0",
+    "prettier": "^2.1.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.2"
   },
   "husky": {
     "hooks": {
