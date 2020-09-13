@@ -4,6 +4,11 @@
   "description": "A wrapper library to get the last state on listening.",
   "main": "./index.js",
   "typings": "./index.d.ts",
+  "keywords": [
+    "events",
+    "subscribe",
+    "node"
+  ],
   "repository": "git@github.com:QuadroKnoX/state-subscriber.git",
   "author": "Oliver Freudrich <info@oliverfreudrich.com>",
   "license": "MIT",
