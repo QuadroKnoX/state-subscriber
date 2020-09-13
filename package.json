@@ -1,6 +1,6 @@
 {
   "name": "state-subscriber",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A wrapper library to get the last state on listening.",
   "main": "./index.js",
   "typings": "./index.d.ts",
